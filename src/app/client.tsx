@@ -8,7 +8,7 @@ export function ClientComponent() {
     if (element) {
       const newElement = document.createElement("a");
       newElement.href = "/test";
-      newElement.innerText = "Test Page";
+      newElement.innerText = "Test Page appended";
       element.appendChild(newElement)
     }
   }, [])
